@@ -226,12 +226,12 @@
               <div class="col-lg-8">
                 <section class='tabs-content'>
                   <article id='tabs-1'>
-                    <img src="assets/images/mapa.jpg" alt="First Class">
-                    <h4>First Training Class</h4>
+                    <img src="assets/images/mapa.jpg" alt="Mapa">
+                    <!-- <h4>Mapa</h4> -->
                     <!-- <p>Phasellus convallis mauris sed elementum vulputate. Donec posuere leo sed dui eleifend hendrerit. Sed suscipit suscipit erat, sed vehicula ligula. Aliquam ut sem fermentum sem tincidunt lacinia gravida aliquam nunc. Morbi quis erat imperdiet, molestie nunc ut, accumsan diam.</p> -->
-                    <div class="main-button">
+                    <!-- <div class="main-button">
                         <a href="#">View Schedule</a>
-                    </div>
+                    </div> -->
                   </article>
                   <article id='tabs-2'>
                     <img src="assets/images/training-image-02.jpg" alt="Second Training">
@@ -269,9 +269,9 @@
             <div class="row">
                 <div class="col-lg-6 offset-lg-3">
                     <div class="section-heading dark-bg">
-                        <h2>Classes <em>Schedule</em></h2>
+                        <h2>Horário das <em>Linhas</em></h2>
                         <img src="assets/images/line-dec.png" alt="">
-                        <p>Nunc urna sem, laoreet ut metus id, aliquet consequat magna. Sed viverra ipsum dolor, ultricies fermentum massa consequat eu.</p>
+                        <p>Para nunca mais se atrasar</p>
                     </div>
                 </div>
             </div>
@@ -279,11 +279,13 @@
                 <div class="col-lg-12">
                     <div class="filters">
                         <ul class="schedule-filter">
-                            <li class="active" data-tsfilter="monday">Monday</li>
-                            <li data-tsfilter="tuesday">Tuesday</li>
-                            <li data-tsfilter="wednesday">Wednesday</li>
-                            <li data-tsfilter="thursday">Thursday</li>
-                            <li data-tsfilter="friday">Friday</li>
+                            <li class="active" data-tsfilter="segunda">Segunda</li>
+                            <li data-tsfilter="terça">Terça</li>
+                            <li data-tsfilter="quarta">Quarta</li>
+                            <li data-tsfilter="quinta">Quinta</li>
+                            <li data-tsfilter="sexta">Sexta</li>
+                            <li data-tsfilter="sabado">Sábado</li>
+                            <li data-tsfilter="domingo">Domingo</li>
                         </ul>
                     </div>
                 </div>
@@ -292,34 +294,82 @@
                         <table>
                             <tbody>
                                 <tr>
-                                    <td class="day-time">Fitness Class</td>
-                                    <td class="monday ts-item show" data-tsmeta="monday">10:00AM - 11:30AM</td>
-                                    <td class="tuesday ts-item" data-tsmeta="tuesday">2:00PM - 3:30PM</td>
-                                    <td>William G. Stewart</td>
+                                    <td class="day-time">Linha Azul</td>
+                                    <td class="monday ts-item show" data-tsmeta="segunda">10:00AM - 11:30AM</td>
+                                    <td class="tuesday ts-item" data-tsmeta="terça">2:00PM - 3:30PM</td>
+                                    <!-- <td>William G. Stewart</td> -->
                                 </tr>
                                 <tr>
-                                    <td class="day-time">Muscle Training</td>
-                                    <td class="friday ts-item" data-tsmeta="friday">10:00AM - 11:30AM</td>
-                                    <td class="thursday friday ts-item" data-tsmeta="thursday" data-tsmeta="friday">2:00PM - 3:30PM</td>
-                                    <td>Paul D. Newman</td>
+                                    <td class="day-time">Linha Verde</td>
+                                    <td class="friday ts-item" data-tsmeta="sexta">10:00AM - 11:30AM</td>
+                                    <td class="thursday friday ts-item" data-tsmeta="quinta" data-tsmeta="domingo">2:00PM - 3:30PM</td>
+                                    <!-- <td>Paul D. Newman</td> -->
                                 </tr>
                                 <tr>
-                                    <td class="day-time">Body Building</td>
-                                    <td class="tuesday ts-item" data-tsmeta="tuesday">10:00AM - 11:30AM</td>
-                                    <td class="monday ts-item show" data-tsmeta="monday">2:00PM - 3:30PM</td>
-                                    <td>Boyd C. Harris</td>
+                                    <td class="day-time">Linha Vermelha</td>
+                                    <td class="tuesday ts-item" data-tsmeta="quinta">10:00AM - 11:30AM</td>
+                                    <td class="monday ts-item show" data-tsmeta="segunda">2:00PM - 3:30PM</td>
+                                    <!-- <td>Boyd C. Harris</td> -->
                                 </tr>
                                 <tr>
-                                    <td class="day-time">Yoga Training Class</td>
-                                    <td class="wednesday ts-item" data-tsmeta="wednesday">10:00AM - 11:30AM</td>
-                                    <td class="friday ts-item" data-tsmeta="friday">2:00PM - 3:30PM</td>
-                                    <td>Hector T. Daigle</td>
+                                    <td class="day-time">Linha Amarela</td>
+                                    <td class="wednesday ts-item" data-tsmeta="quarta">10:00AM - 11:30AM</td>
+                                    <td class="friday ts-item" data-tsmeta="sabado">2:00PM - 3:30PM</td>
+                                    <!-- <td>Hector T. Daigle</td> -->
                                 </tr>
                                 <tr>
-                                    <td class="day-time">Advanced Training</td>
-                                    <td class="thursday ts-item" data-tsmeta="thursday">10:00AM - 11:30AM</td>
-                                    <td class="wednesday ts-item" data-tsmeta="wednesday">2:00PM - 3:30PM</td>
-                                    <td>Bret D. Bowers</td>
+                                    <td class="day-time">Linha Lilás</td>
+                                    <td class="thursday ts-item" data-tsmeta="segunda">10:00AM - 11:30AM</td>
+                                    <td class="wednesday ts-item" data-tsmeta="domingo">2:00PM - 3:30PM</td>
+                                    <!-- <td>Bret D. Bowers</td> -->
+                                </tr>
+                                <tr>
+                                    <td class="day-time">Linha Rubi</td>
+                                    <td class="thursday ts-item" data-tsmeta="quarta">10:00AM - 11:30AM</td>
+                                    <td class="wednesday ts-item" data-tsmeta="terça">2:00PM - 3:30PM</td>
+                                    <!-- <td>Bret D. Bowers</td> -->
+                                </tr>
+                                <tr>
+                                    <td class="day-time">Linha Diamante</td>
+                                    <td class="thursday ts-item" data-tsmeta="quinta">10:00AM - 11:30AM</td>
+                                    <td class="wednesday ts-item" data-tsmeta="domingo">2:00PM - 3:30PM</td>
+                                    <!-- <td>Bret D. Bowers</td> -->
+                                </tr>
+                                <tr>
+                                    <td class="day-time">Linha Esmeralda</td>
+                                    <td class="thursday ts-item" data-tsmeta="sabado">10:00AM - 11:30AM</td>
+                                    <td class="wednesday ts-item" data-tsmeta="sexta">2:00PM - 3:30PM</td>
+                                    <!-- <td>Bret D. Bowers</td> -->
+                                </tr>
+                                <tr>
+                                    <td class="day-time">Linha Turquesa</td>
+                                    <td class="thursday ts-item" data-tsmeta="segunda">10:00AM - 11:30AM</td>
+                                    <td class="wednesday ts-item" data-tsmeta="quarta">2:00PM - 3:30PM</td>
+                                    <!-- <td>Bret D. Bowers</td> -->
+                                </tr>
+                                <tr>
+                                    <td class="day-time">Linha Coral</td>
+                                    <td class="thursday ts-item" data-tsmeta="terça">10:00AM - 11:30AM</td>
+                                    <td class="wednesday ts-item" data-tsmeta="domingo">2:00PM - 3:30PM</td>
+                                    <!-- <td>Bret D. Bowers</td> -->
+                                </tr>
+                                <tr>
+                                    <td class="day-time">Linha Safira</td>
+                                    <td class="thursday ts-item" data-tsmeta="quinta">10:00AM - 11:30AM</td>
+                                    <td class="wednesday ts-item" data-tsmeta="sexta">2:00PM - 3:30PM</td>
+                                    <!-- <td>Bret D. Bowers</td> -->
+                                </tr>
+                                <tr>
+                                    <td class="day-time">Linha Jade</td>
+                                    <td class="thursday ts-item" data-tsmeta="segunda">10:00AM - 11:30AM</td>
+                                    <td class="wednesday ts-item" data-tsmeta="quarta">2:00PM - 3:30PM</td>
+                                    <!-- <td>Bret D. Bowers</td> -->
+                                </tr>
+                                <tr>
+                                    <td class="day-time">Linha Prata</td>
+                                    <td class="thursday ts-item" data-tsmeta="sabado">10:00AM - 11:30AM</td>
+                                    <td class="wednesday ts-item" data-tsmeta="domingo">2:00PM - 3:30PM</td>
+                                    <!-- <td>Bret D. Bowers</td> -->
                                 </tr>
                             </tbody>
                         </table>
@@ -335,9 +385,9 @@
             <div class="row">
                 <div class="col-lg-6 offset-lg-3">
                     <div class="section-heading">
-                        <h2>Expert <em>Trainers</em></h2>
+                        <h2><em>Equipe</em></h2>
                         <img src="assets/images/line-dec.png" alt="">
-                        <p>Nunc urna sem, laoreet ut metus id, aliquet consequat magna. Sed viverra ipsum dolor, ultricies fermentum massa consequat eu.</p>
+                        <!-- <p>Nunc urna sem, laoreet ut metus id, aliquet consequat magna. Sed viverra ipsum dolor, ultricies fermentum massa consequat eu.</p> -->
                     </div>
                 </div>
             </div>
@@ -345,17 +395,17 @@
                 <div class="col-lg-4">
                     <div class="trainer-item">
                         <div class="image-thumb">
-                            <img src="assets/images/first-trainer.jpg" alt="">
+                            <img src="assets/images/vitoria.jpg" alt="">
                         </div>
                         <div class="down-content">
-                            <span>Strength Trainer</span>
-                            <h4>Bret D. Bowers</h4>
-                            <p>Bitters cliche tattooed 8-bit distillery mustache. Keytar succulents gluten-free vegan church-key pour-over seitan flannel.</p>
+                            <span>Diretora Executiva</span>
+                            <h4>Vitoria Regina</h4>
+                            <p>CEO da empresa, principal membro da equipe, cursando Direito na São Judas.</p>
                             <ul class="social-icons">
                                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                                 <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                                 <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="#"><i class="fa fa-behance"></i></a></li>
+                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -363,17 +413,17 @@
                 <div class="col-lg-4">
                     <div class="trainer-item">
                         <div class="image-thumb">
-                            <img src="assets/images/second-trainer.jpg" alt="">
+                            <img src="assets/images/erick.jpg" alt="">
                         </div>
                         <div class="down-content">
-                            <span>Muscle Trainer</span>
-                            <h4>Hector T. Daigl</h4>
-                            <p>Bitters cliche tattooed 8-bit distillery mustache. Keytar succulents gluten-free vegan church-key pour-over seitan flannel.</p>
+                            <span>Diretor de TI (back-end)</span>
+                            <h4>Erick Alves</h4>
+                            <p>A mente brilhante da equipe, estudante do Ensino médio, otaku</p>
                             <ul class="social-icons">
                                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                                 <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                                 <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="#"><i class="fa fa-behance"></i></a></li>
+                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -381,17 +431,53 @@
                 <div class="col-lg-4">
                     <div class="trainer-item">
                         <div class="image-thumb">
-                            <img src="assets/images/third-trainer.jpg" alt="">
+                            <img src="assets/images/eu.jpg" alt="">
                         </div>
                         <div class="down-content">
-                            <span>Power Trainer</span>
-                            <h4>Paul D. Newman</h4>
-                            <p>Bitters cliche tattooed 8-bit distillery mustache. Keytar succulents gluten-free vegan church-key pour-over seitan flannel.</p>
+                            <span>Diretora de TI (front-end)</span>
+                            <h4>Laura Roger</h4>
+                            <p>RH, braço direito da Vitoria, kpopeira de plantão</p>
                             <ul class="social-icons">
                                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                                 <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                                 <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="#"><i class="fa fa-behance"></i></a></li>
+                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="trainer-item">
+                        <div class="image-thumb">
+                            <img src="assets/images/gustavo.jpg" alt="">
+                        </div>
+                        <div class="down-content">
+                            <span>Diretor de Marketing</span>
+                            <h4>Gustavo Lima</h4>
+                            <p>Marketeiro, o cria da equipe, Gustavo Lima e você.</p>
+                            <ul class="social-icons">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="trainer-item">
+                        <div class="image-thumb">
+                            <img src="assets/images/julio.jpg" alt="">
+                        </div>
+                        <div class="down-content">
+                            <span>Diretor/Consultor</span>
+                            <h4>Júlio César</h4>
+                            <p>O rosto da equipe, estudante do fudamental, otaku</p>
+                            <ul class="social-icons">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -416,27 +502,27 @@
                           <div class="row">
                             <div class="col-md-6 col-sm-12">
                               <fieldset>
-                                <input name="name" type="text" id="name" placeholder="Your Name*" required="">
+                                <input name="name" type="text" id="name" placeholder="Seu nome*" required="">
                               </fieldset>
                             </div>
                             <div class="col-md-6 col-sm-12">
                               <fieldset>
-                                <input name="email" type="text" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your Email*" required="">
+                                <input name="email" type="text" id="email" pattern="[^ @]*@[^ @]*" placeholder="Seu email*" required="">
                               </fieldset>
                             </div>
                             <div class="col-md-12 col-sm-12">
                               <fieldset>
-                                <input name="subject" type="text" id="subject" placeholder="Subject">
+                                <input name="subject" type="text" id="subject" placeholder="Tema">
                               </fieldset>
                             </div>
                             <div class="col-lg-12">
                               <fieldset>
-                                <textarea name="message" rows="6" id="message" placeholder="Message" required=""></textarea>
+                                <textarea name="message" rows="6" id="message" placeholder="Mensagem" required=""></textarea>
                               </fieldset>
                             </div>
                             <div class="col-lg-12">
                               <fieldset>
-                                <button type="submit" id="form-submit" class="main-button">Send Message</button>
+                                <button type="submit" id="form-submit" class="main-button">Enviar Mensagem</button>
                               </fieldset>
                             </div>
                           </div>
@@ -453,7 +539,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <p>Copyright &copy; 2020 Training Studio
+                    <p>Paideia &copy; 2022 Lassu USP
                     
                     - Designed by <a rel="nofollow" href="https://templatemo.com" class="tm-text-link" target="_parent">TemplateMo</a><br>
 
